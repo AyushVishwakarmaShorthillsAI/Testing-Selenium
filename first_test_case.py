@@ -1,3 +1,23 @@
+# Test Case(Steps to automate) :->
+
+# 1) Open Chrome
+# 2) open the url : https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+# 3) provide email
+# 4) provide password
+# 5) Click on Login   
+# 6) Capture the title of the Dasboard page 
+# 7) Verify the title of the page ( should be "Dasboard / "nopCommerece Administration)
+# 8) Close browser
+
+# 9) If the Verification pass -> success , else Fail
+
+# -----------------------------------------------------------------------------------------------------------------------
+
+# NOte : Web driver is a module which is avaialbble in the selenium package 
+# we need to import it.
+
+# ---------------------------------------
+
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
